@@ -27,9 +27,9 @@ To get a local copy of this project up and running, follow these steps:
    git clone https://github.com/nayemislam33046/e-commerce.git
 
 2. ### **Start Live Server**
-  for start live server . you can use this command - **npm run dev**
+  for starting the live server. you can use this command - **npm run dev**
 
 3. ### **Start Local Api** 
-To start the local API which I have made localy you can use command - **npm run server**
+To start the local API which I have made locally you can use the command - **npm run server**
 
-##  *Thank you *
+##  *Thank you*
