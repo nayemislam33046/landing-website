@@ -1,6 +1,6 @@
 # E-Commerce Frontend Page
 
-Welcome to the E-Commerce Frontend Page project! This repository contains the source code for a modern, responsive e-commerce frontend page designed to showcase products, handle user interactions, and provide a seamless shopping experience.
+Welcome to the E-Commerce Frontend Page project! This repository contains the code for a modern, responsive e-commerce frontend page designed to showcase products, handle user interactions, and provide a seamless shopping experience.
 
 ## Features
 
@@ -12,7 +12,7 @@ Welcome to the E-Commerce Frontend Page project! This repository contains the so
 ## Technologies Used
 
 - **HTML5**: For structuring the content.
-- **CSS3**: For styling the page, using Flexbox and Grid for layout.
+- **CSS3**: For styling the page, use Flexbox and Grid for layout.
 - **JavaScript**: For dynamic interactions and functionality.
 - **React** (Optional): For a component-based approach if you're using React.
 **Tailwind CSS** (Optional): For additional styling and responsive design utilities.
@@ -24,12 +24,12 @@ To get a local copy of this project up and running, follow these steps:
 1. ### **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-username/e-commerce-frontend-page.git
+   git clone https://github.com/nayemislam33046/e-commerce.git
 
 2. ### **Start Live Server**
   for start live server . you can use this command - **npm run dev**
 
 3. ### **Start Local Api** 
-for start local api which i have made localy you can use command - **npm run server**
+To start the local API which I have made localy you can use command - **npm run server**
 
 ##  *Thank you *
