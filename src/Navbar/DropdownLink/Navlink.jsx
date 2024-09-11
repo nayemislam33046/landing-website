@@ -1,0 +1,101 @@
+export const links = [
+  {
+    name: "All Category",
+    st: true,
+    submenu: true,
+    sublinks: [
+      { name: "Dairy, Bread & Eggs", link: "/" },
+      { name: "Snacks & Munchies", link: "/" },
+      { name: "Fruits & Vegetables", link: "/" },
+      { name: "Cold Drinks & Juices", link: "/" },
+      { name: "Breakfast & Instant Food", link: "/" },
+      { name: "Bakery & Biscuits", link: "/" },
+      { name: "Chicken, Meat & Fish", link: "/" },
+    ],
+  },
+  {
+    name: "Home",
+    submenu: true,
+    sublinks: [
+      { name: "Dairy, Bread & Eggs", link: "/" },
+      { name: "Snacks & Munchies", link: "/" },
+      { name: "Fruits & Vegetables", link: "/" },
+      { name: "Cold Drinks & Juices", link: "/" },
+      { name: "Breakfast & Instant Food", link: "/" },
+      { name: "Bakery & Biscuits", link: "/" },
+      { name: "Chicken, Meat & Fish", link: "/" },
+    ],
+  },
+  {
+    name: "Shop",
+    submenu: true,
+    sublinks: [
+      { name: "Shop Grid - Filter", link: "/" },
+      { name: "Shop Grid - 3 column", link: "/" },
+      { name: "Shop Checkout", link: "/" },
+      { name: "Shop Cart", link: "/" },
+      { name: "Shop List - Filter", link: "/" },
+      { name: "Shop - Filter", link: "/" },
+      { name: "Shop Wide", link: "/" },
+      { name: "Shop Wishlist", link: "/" },
+      { name: "Shop Single", link: "/" },
+      { name: "Shop Single v2", link: "/" },
+    ],
+  },
+  {
+    name: "Stores",
+    submenu: true,
+    sublinks: [
+      { name: "Store List", link: "/" },
+      { name: "Store Grid", link: "/" },
+      { name: "Store Single", link: "/" },
+    ],
+  },
+  {
+    name: "Megamenu",
+    submenu: true,
+    sublinks: [
+      { name: "Dairy, Bread & Eggs", link: "/" },
+      { name: "Snacks & Munchies", link: "/" },
+      { name: "Fruits & Vegetables", link: "/" },
+      { name: "Cold Drinks & Juices", link: "/" },
+      { name: "Breakfast & Instant Food", link: "/" },
+      { name: "Bakery & Biscuits", link: "/" },
+      { name: "Chicken, Meat & Fish", link: "/" },
+    ],
+  },
+  {
+    name: "Pages",
+    submenu: true,
+    sublinks: [
+      { name: "Blog", link: "/" },
+      { name: "Blog Single", link: "/" },
+      { name: "Blog Category", link: "/" },
+      { name: "About Us", link: "/" },
+      { name: "404 Error", link: "/" },
+      { name: "Contact", link: "/" },
+    ],
+  },
+  {
+    name: "Account",
+    submenu: true,
+    sublinks: [
+      { name: "Sign in", link: "/" },
+      { name: "Signup", link: "/" },
+      { name: "Forgot Password", link: "/" },
+      { name: "My Account", link: "/" },
+    ],
+  },
+  {
+    name: "Dashboard",
+    std: true,
+  },
+  {
+    name: "Docs",
+    submenu: true,
+    sublinks: [
+      { name: "Documentations", link: "/" },
+      { name: "Changelog v1.3.0", link: "/" },
+    ],
+  },
+];
