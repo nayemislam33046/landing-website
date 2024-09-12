@@ -4,7 +4,8 @@ import { Reducer } from "./Reducer";
 export const ThemeContext = createContext();
 export const ThemeProvider = ({ children }) => {
   const [getData, setgetData] = useState([]);
-  const Api = "http://localhost:3000/Api";
+  const port = import.meta.env.VITE_PORT
+  const Api = `${port}/Api`;
   const getProduct = async (Api) => {
     const res = await axios.get(Api);
     const data = await res.data;
