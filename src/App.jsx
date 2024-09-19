@@ -1,25 +1,27 @@
-import React, { useContext, useEffect } from "react";
-import Banner from "./Banner/Banner";
-import Category from "./Category/Category";
-import Discount from "./Discount/Discount";
-import Product from "./Product/Product";
-import Bestsell from "./Bestsell/Bestsell";
-import Services from "./Services/Services";
-import { ThemeContext } from "./Context/Context";
+import React from "react";
+import Headers from "./Headers/Headers";
+import LandingItem from "./LandingItem/LandingItem";
+import Variant from "./Variant/Variant";
+import Mysection from "./ParagraphSection/Mysection";
+import Features from "./Features/Features";
+import Workflow from "./Workflow/Workflow";
+import Solution from "./Solution/Solution";
+import Pricing from "./Pricing/Pricing";
+import Purchasepara from "./Purchasepara/Purchasepara";
+import Footer from "./Footer/Footer";
 const App = () => {
-  const {state,dispatch} = useContext(ThemeContext)
-  useEffect(() => {
-    dispatch({type:"CART_ITEM_PRICE_TOTAL"})
-  }, [])
-  
   return (
-    <div className="px-5 sm:px-10 xl:px-32">
-      <Banner />
-      <Category />
-      <Discount />
-      <Product />
-      <Bestsell />
-      <Services />
+    <div>
+      <Headers />
+      <LandingItem />
+      <Variant />
+      <Mysection />
+      <Features />
+      <Workflow />
+      <Solution />
+      <Pricing />
+      <Purchasepara />
+      <Footer />
     </div>
   );
 };
